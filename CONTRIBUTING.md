@@ -12,14 +12,13 @@ Thank you for your interest in contributing to **Awesome USA** — the curated l
    - Include **Released** date (month + year)
    - Set **openSource** (`true` / `false`) in `data/usabench.json`
    - Include **USAbench** score (0-100)
-   - Add **runtime command** if applicable (especially for open-weights)
    - Note any China fine-tunes in the Flagged section — set `chinaBaseLabel` and `whyFlagged` in `data/usabench.json`
 5. **Submit a Pull Request**
 
 ## What We're Looking For
 
 - Pure US-headquartered companies and labs
-- Open-weights models with local run instructions
+- Open-weights models with clear access paths (HF, NGC, etc.)
 - US-developed runtimes and tools (desktop, edge, server)
 - University research contributions (Berkeley, Stanford, etc.)
 - High-quality, verified entries only

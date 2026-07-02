@@ -98,10 +98,6 @@ const flagged = data.flagged
   .sort((a, b) => b.score - a.score)
   .map((e, i) => ({ ...e, rank: i + 1 }));
 
-const openStack = frontier
-  .filter((e) => e.openSource)
-  .sort((a, b) => b.score - a.score);
-
 function frontierRow(e) {
   return `| ${String(e.rank).padEnd(4)} | ${e.model.padEnd(29)} | ${e.company.padEnd(11)} | ${e.releasedLabel.padEnd(10)} | ${e.openLabel.padEnd(6)} | **${e.score}** ${e.starLabel} | ${e.access.padEnd(22)} | ${e.notes} |`;
 }
@@ -121,11 +117,6 @@ const output = {
   pulseLabel: data.pulseLabel,
   frontier,
   flagged,
-  openStack: openStack.map((e) => ({
-    model: e.model.replace(/\*\*/g, ""),
-    score: e.score,
-    released: e.releasedLabel,
-  })),
 };
 
 if (process.argv.includes("--json")) {
@@ -146,11 +137,6 @@ console.log("\n## Flagged\n");
 for (const e of flagged) {
   const rel = e.releasedLabel ?? "no date";
   console.log(`${String(e.score).padStart(3)} ${e.starLabel}  ${e.model}  (${rel}, −${e.penalty})`);
-}
-
-console.log("\n## Open stack order\n");
-for (const e of openStack) {
-  console.log(`  ${e.score}  ${e.model}  (${e.releasedLabel})`);
 }
 
 console.log("\n## README table rows (Models)\n");

@@ -37,7 +37,6 @@ Models with a **China-base foundation** (full or partial). US companies and inte
 ### Table of Contents
 - [Models](#models)
 - [Flagged](#flagged)
-- [US Open-Weights & Local Stack](#us-open-weights--local-stack)
 - [Multimodal](#multimodal)
 - [Dev Tools](#dev-tools)
 - [US Tools for Running Models Locally & on Edge](#us-tools-for-running-models-locally--on-edge)
@@ -73,19 +72,6 @@ Models with a **China-base foundation** (full or partial). US companies and inte
 Scores are computed from `data/usabench.json` — run `node scripts/usabench.mjs` after advancing the pulse date or updating releases.
 
 Closed frontier models (Claude, GPT, Grok, etc.) can be excellent — they just don't score sovereign-open tier, and stale weights fall fast.
-
-### US Open-Weights & Local Stack
-**One-command sovereign stack** — freshest pure US open-weights first; private, zero cost.
-
-| Rank | Command | Model | Released | Notes |
-|------|---------|-------|----------|-------|
-| 1 | `ollama run nemotron-3-super` | NVIDIA Nemotron 3 | Jun 2026 | Top USAbench open |
-| 2 | `ollama run gemma4` | Google Gemma 4 | May 2026 | Efficient local + multimodal |
-| 3 | `ollama run arcee-trinity` | Arcee Trinity Large | Mar 2026 | Agentic open |
-| 4 | `ollama run phi4` | Microsoft Phi 4 | Dec 2024 | ⚠️ aging |
-| 5 | `ollama run llama4` | Meta Llama 4 | Apr 2025 | Legacy — still widely deployed |
-
-Meta does both: **Muse Spark** for current hosted frontier + **Llama 4** for open control (due for refresh).
 
 ### Multimodal
 
@@ -165,7 +151,7 @@ Search these orgs for additional American contributions:
 Use tags like `llama`, `gemma`, `phi`, `nemotron`, `intellect`, `ornith` + filter for open licenses to stay US-focused.
 
 ### Contributing
-- Add new pure-US entries with **Released** date, USAbench score + runtime command if available  
+- Add new pure-US entries with **Released** date and USAbench score in `data/usabench.json`
 - PRs welcome — help keep the pulse and open list updated!  
 - See [CONTRIBUTING.md](CONTRIBUTING.md) (coming soon)
 
