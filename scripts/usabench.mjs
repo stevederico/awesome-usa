@@ -124,7 +124,13 @@ if (process.argv.includes("--json")) {
   process.exit(0);
 }
 
+const days = data.daysSinceMajorRelease ?? 0;
+const daysLabel = days === 0 ? "**0 days**" : days === 1 ? "**1 day**" : `**${days} days**`;
+
 console.log(`USAbench pulse: ${data.pulseLabel} (${data.pulseDate})\n`);
+console.log("## README pulse callout\n");
+console.log(`> **US AI Pulse · ${data.pulseLabel}**  `);
+console.log(`> ${daysLabel} since the last major US release — USAbench recency anchor\n`);
 
 console.log("## Models (sorted by score)\n");
 for (const e of frontier) {

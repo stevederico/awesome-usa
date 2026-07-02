@@ -2,9 +2,10 @@
 image credit @levelsio https://x.com/levelsio/status/2070979198928277842
 
 # Awesome USA 🇺🇸
-> Free + open source models, made in the land of the free 
+Free + open source models, made in the land of the free 
 
-**US AI Pulse** • July 2026 • **0 days** since major US activity • 15+ open US models ready to run locally.
+> **US AI Pulse · July 2026**  
+> **0 days** since the last major US release — USAbench recency anchor
 
 ### Models
 
