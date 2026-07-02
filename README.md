@@ -134,11 +134,4 @@ Star ⭐ if helpful. Contributions always welcome!
 
 ---
 
-**Banner Prompt** (generate with Grok Imagine):
-> Create an insanely intense patriotic banner for GitHub README inspired by levelsio Come and Take It GPU meme: A ferocious bald eagle with glowing eyes, wings spread, defending a massive GPU cluster 'cannon' with 'COME AND TAKE IT' banner in bold, clutching a glowing AI orb and American flag, dramatic waving flag background with stars and stripes, lightning, fireworks, red white blue explosion, Silicon Valley skyline, bold 'AWESOME USA 🇺🇸 AI MODELS & TOOLS' text, 'Sovereign • Pure • Built in America' subtitle, intense patriotic power, ultra detailed, cinematic, maximum American pride and hardware sovereignty, 16:9 banner format, masterpiece.
-
-Generate → upload as `banner.png` → add at top of this README.
-
----
-
 **License**: CC0 / MIT-style for awesome lists (feel free to use).
