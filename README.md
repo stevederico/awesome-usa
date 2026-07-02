@@ -2,11 +2,26 @@
 image credit @levelsio https://x.com/levelsio/status/2070979198928277842
 
 # Awesome USA 🇺🇸
-
-> Curated list of the **best AI models, LLMs, multimodal tools, and developer tools** from American companies and labs.  
-> Strictly US-made. USAbench purity scores. Open-source & local emphasis. No China base models.
+> Free + open source models, made in the land of the free 
 
 **US AI Pulse** • July 2026 • **0 days** since major US activity • 15+ open US models ready to run locally.
+
+### Frontier Models
+
+| Rank | Model / Family                  | Company     | Released   | Open Source | USAbench   | Access                  | Notes |
+|------|-------------------------------|-------------|------------|-------------|------------|-------------------------|-------|
+| 1    | Nemotron Super / Ultra / 3    | NVIDIA     | Jun 2026   | ✅ Yes      | **98** ⭐⭐⭐ | NGC + HF               | Enterprise, agentic |
+| 2    | Gemma 4                       | Google     | May 2026   | ✅ Yes      | **98** ⭐⭐⭐ | HF                     | Efficient local + multimodal |
+| 3    | Arcee Trinity Large           | Arcee AI   | Mar 2026   | ✅ Yes      | **95** ⭐⭐⭐ | HF                     | Agentic open |
+| 4    | Claude Opus 4.6 / Fable 5     | Anthropic  | Jun 2026   | ❌ No       | **88** ⭐⭐ | claude.ai / API        | Reasoning, safety, agents |
+| 5    | GPT-5.6 (Sol/Terra/Luna)      | OpenAI     | May 2026   | ❌ No       | **87** ⭐⭐ | API (vetted)           | All-round + elite |
+| 6    | Grok 4.3 / 4.20 / 5           | xAI        | Apr 2026   | ❌ No       | **86** ⭐⭐ | x.ai / X / API         | Coding, real-time |
+| 7    | Gemini 3 + Nano Banana / Veo  | Google     | Jun 2026   | ❌ No       | **85** ⭐⭐ | gemini.google.com      | Multimodal, video • use Gemma 4 for open |
+| 8    | Llama 4 Maverick / Scout      | Meta       | Apr 2025   | ✅ Yes      | **85** ⭐⭐ | Hugging Face           | Open weights pioneer • ⚠️ aging (~15 mo) |
+| 9    | **Muse Spark (Muse family)**  | **Meta**   | Mar 2026   | ❌ No       | **82** ⭐⭐ | meta.ai / apps / API   | Multimodal reasoning, agents • Meta's current frontier |
+| 10   | Phi-4 + Reflection            | Microsoft / Reflection | Dec 2024 | ✅ Yes      | **81** ⭐⭐ | HF                     | Small & efficient open • ⚠️ aging (~19 mo) |
+| 11   | MAI Code / Image / Thinking   | Microsoft  | Sep 2025   | ❌ No       | **78** ⭐ | Azure                  | In-house coding + multimodal • use Phi-4 / Nemotron for open |
+| 12   | INTELLECT-1                   | Prime Intellect | Nov 2024 | ✅ Yes      | **74** ⭐ | HF                     | First fully decentralized 10B • ⚠️ aging (~20 mo) • Arcee post-train |
 
 ### Table of Contents
 - [Frontier Models](#frontier-models)
@@ -26,68 +41,86 @@ image credit @levelsio https://x.com/levelsio/status/2070979198928277842
 - Strong emphasis on open-weights + self-hosting tools
 
 **USAbench tiers** (scores refreshed against **July 2026** pulse date)
-- **95–100** ⭐⭐⭐ — Pure US + open weights, released within ~6 months  
-- **80–94** ⭐⭐ — Strong US open (aging) or closed API-only (caps here no matter how good)  
-- **60–79** ⭐ — Older open releases, or hybrid/flagged (China base + US post-train)  
-- **<60** — Mostly non-US or heavy China dependency → [Flagged](#flagged)
 
-**Recency decay** (from pulse date): 0–3 mo → no penalty • 4–6 mo → −2 • 7–12 mo → −5 • 13–18 mo → −10 • 19+ mo → −15
+| Score | Tier | Meaning |
+|-------|------|---------|
+| 95–100 | ⭐⭐⭐ | Pure US + open weights, released within ~6 months |
+| 80–94 | ⭐⭐ | Strong US open (aging) or closed API-only (caps here) |
+| 60–79 | ⭐ | Older open releases, or hybrid/flagged (China base + US post-train) |
+| &lt;60 | — | Mostly non-US or heavy China dependency → [Flagged](#flagged) |
+
+**Recency decay** (from pulse date)
+
+| Age | Penalty |
+|-----|---------|
+| 0–3 mo | none |
+| 4–6 mo | −2 |
+| 7–12 mo | −5 |
+| 13–18 mo | −10 |
+| 19+ mo | −15 |
 
 Scores are computed from `data/usabench.json` — run `node scripts/usabench.mjs` after advancing the pulse date or updating releases.
 
 Closed frontier models (Claude, GPT, Grok, etc.) can be excellent — they just don't score sovereign-open tier, and stale weights fall fast.
 
-### Frontier Models
-
-| Model / Family                  | Company     | Released   | Open Source | USAbench   | Access                  | Notes |
-|-------------------------------|-------------|------------|-------------|------------|-------------------------|-------|
-| Nemotron Super / Ultra / 3    | NVIDIA     | Jun 2026   | ✅ Yes      | **98** ⭐⭐⭐ | NGC + HF               | Enterprise, agentic |
-| Gemma 4                       | Google     | May 2026   | ✅ Yes      | **98** ⭐⭐⭐ | HF                     | Efficient local + multimodal |
-| Arcee Trinity Large           | Arcee AI   | Mar 2026   | ✅ Yes      | **95** ⭐⭐⭐ | HF                     | Agentic open |
-| Claude Opus 4.6 / Fable 5     | Anthropic  | Jun 2026   | ❌ No       | **88** ⭐⭐ | claude.ai / API        | Reasoning, safety, agents |
-| GPT-5.6 (Sol/Terra/Luna)      | OpenAI     | May 2026   | ❌ No       | **87** ⭐⭐ | API (vetted)           | All-round + elite |
-| Grok 4.3 / 4.20 / 5           | xAI        | Apr 2026   | ❌ No       | **86** ⭐⭐ | x.ai / X / API         | Coding, real-time |
-| Gemini 3 + Nano Banana / Veo  | Google     | Jun 2026   | ❌ No       | **85** ⭐⭐ | gemini.google.com      | Multimodal, video • use Gemma 4 for open |
-| Llama 4 Maverick / Scout      | Meta       | Apr 2025   | ✅ Yes      | **85** ⭐⭐ | Hugging Face           | Open weights pioneer • ⚠️ aging (~15 mo) |
-| **Muse Spark (Muse family)**  | **Meta**   | Mar 2026   | ❌ No       | **82** ⭐⭐ | meta.ai / apps / API   | Multimodal reasoning, agents • Meta's current frontier |
-| Phi-4 + Reflection            | Microsoft / Reflection | Dec 2024 | ✅ Yes      | **81** ⭐⭐ | HF                     | Small & efficient open • ⚠️ aging (~19 mo) |
-| MAI Code / Image / Thinking   | Microsoft  | Sep 2025   | ❌ No       | **78** ⭐ | Azure                  | In-house coding + multimodal • use Phi-4 / Nemotron for open |
-| INTELLECT-1                   | Prime Intellect | Nov 2024 | ✅ Yes      | **74** ⭐ | HF                     | First fully decentralized 10B • ⚠️ aging (~20 mo) • Arcee post-train |
-
 ### US Open-Weights & Local Stack
 **One-command sovereign stack** — freshest pure US open-weights first; private, zero cost.
 
-- `ollama run nemotron-3-super` → NVIDIA Nemotron 3 (Jun 2026)  
-- `ollama run gemma4` → Google Gemma 4 (May 2026)  
-- `ollama run arcee-trinity` → Arcee Trinity Large (Mar 2026)  
-- `ollama run phi4` → Microsoft Phi 4 (Dec 2024 — aging)  
-- `ollama run llama4` → Meta Llama 4 (Apr 2025 — legacy, still widely deployed)  
+| Rank | Command | Model | Released | Notes |
+|------|---------|-------|----------|-------|
+| 1 | `ollama run nemotron-3-super` | NVIDIA Nemotron 3 | Jun 2026 | Top USAbench open |
+| 2 | `ollama run gemma4` | Google Gemma 4 | May 2026 | Efficient local + multimodal |
+| 3 | `ollama run arcee-trinity` | Arcee Trinity Large | Mar 2026 | Agentic open |
+| 4 | `ollama run phi4` | Microsoft Phi 4 | Dec 2024 | ⚠️ aging |
+| 5 | `ollama run llama4` | Meta Llama 4 | Apr 2025 | Legacy — still widely deployed |
 
 Meta does both: **Muse Spark** for current hosted frontier + **Llama 4** for open control (due for refresh).
 
 ### Multimodal
-- Grok Imagine (xAI)  
-- Sora 2 / DALL·E (OpenAI)  
-- Veo 3.1 + Imagen 4 + Nano Banana (Google)  
-- Muse Spark (Meta)  
-- Midjourney, Runway Gen-4, HeyGen, Krea  
+
+| Model / Tool | Company | Type | Notes |
+|--------------|---------|------|-------|
+| Grok Imagine | xAI | Image + video | Real-time generation |
+| Sora 2 / DALL·E | OpenAI | Video + image | Closed API |
+| Veo 3.1 + Imagen 4 + Nano Banana | Google | Video + image | Use Gemma 4 for open LLM |
+| Muse Spark | Meta | Multimodal reasoning | Closed API |
+| Midjourney | Midjourney | Image | US company |
+| Runway Gen-4 | Runway | Video | US company |
+| HeyGen | HeyGen | Avatar video | US company |
+| Krea | Krea | Image | US company |
 
 ### Dev Tools (All US)
-- Cursor (<span style="color:red">❌</span> Composer 2.5) • GitHub Copilot • Claude Code • Cognition  
-- LangChain / LangGraph • Vercel AI + v0 • Hugging Face (NYC)  
-- Groq • Fireworks • Together.ai (US inference)  
-- Perplexity • Sierra • Palantir • Databricks • Scale AI  
+
+| Tool | Company | Open Source | Notes |
+|------|---------|-------------|-------|
+| Cursor | Cursor | ❌ No | Composer 2.5 flagged — [see Flagged](#flagged) |
+| GitHub Copilot | Microsoft / GitHub | ❌ No | IDE coding assistant |
+| Claude Code | Anthropic | ❌ No | Agentic coding |
+| Cognition (Devin) | Cognition | ❌ No | Autonomous software engineer |
+| LangChain / LangGraph | LangChain | ✅ Yes | Agent orchestration framework |
+| Vercel AI + v0 | Vercel | ✅ Partial | SDK open; v0 hosted |
+| Hugging Face | Hugging Face | ✅ Yes | Hub + tools (NYC) |
+| Groq | Groq | ❌ No | US inference (LPU) |
+| Fireworks | Fireworks AI | ❌ No | US inference |
+| Together.ai | Together AI | ❌ No | US inference |
+| Perplexity | Perplexity | ❌ No | Answer engine |
+| Sierra | Sierra | ❌ No | Enterprise agents |
+| Palantir | Palantir | ❌ No | Enterprise AI platform |
+| Databricks | Databricks | ✅ Partial | Mosaic AI + open components |
+| Scale AI | Scale AI | ❌ No | Data + eval infrastructure |
 
 ### US Tools for Running Models Locally & on Edge (All Verified US Companies)
 For maximum sovereignty — desktop, server, mobile, Apple Silicon, edge:
 
-- **Ollama** (Palo Alto, CA) — Easiest CLI, huge US model support
-- **LM Studio** (Element Labs, New York) — Best polished GUI + model browser
-- **Google LiteRT / LiteRT-LM** (Google, Mountain View) — **Best for Android / edge / on-device**
-- **Apple MLX** (Apple, Cupertino) — **Best for Apple Silicon** (Mac, iPad, iPhone) — blazing fast on-device inference on M-series chips
-- **NVIDIA NIM** (NVIDIA, Santa Clara) — Enterprise-grade, highest performance
-- **vLLM** (UC Berkeley / US) — High-throughput serving
-- **GPT4All** (Nomic AI, US) — Beginner-friendly desktop app
+| Tool | HQ | Best for | Notes |
+|------|-----|----------|-------|
+| Ollama | Palo Alto, CA | Desktop CLI | Easiest CLI, huge US model support |
+| LM Studio | New York, NY | Desktop GUI | Polished GUI + model browser |
+| Google LiteRT / LiteRT-LM | Mountain View, CA | Android / edge | On-device inference |
+| Apple MLX | Cupertino, CA | Apple Silicon | Mac, iPad, iPhone — M-series optimized |
+| NVIDIA NIM | Santa Clara, CA | Production | Enterprise-grade, highest performance |
+| vLLM | UC Berkeley, CA | Production serving | High-throughput open serving |
+| GPT4All | US (Nomic AI) | Beginners | Friendly desktop app |
 
 **Recommendation**: Desktop → Ollama or LM Studio • Mac → MLX • Android/edge → LiteRT • Production → NIM or vLLM.
 
@@ -96,33 +129,38 @@ For maximum sovereignty — desktop, server, mobile, Apple Silicon, edge:
 ### US University Labs & Research Contributions
 US universities drive much of the open innovation:
 
-- **UC Berkeley** (Sky Computing Lab, BAIR, berkeley-nest, rail-berkeley): vLLM (leading LLM inference/serving engine), Starling-LM (helpful assistant models), Octo robotics foundation models, medical imaging collaborations.
-- **Stanford** (CRFM, StanfordNLP, StanfordAIMI): Alpaca (pioneering instruction-following dataset/model), HELM (gold-standard evaluation benchmark), BioMedLM and medical models on HF, CoreNLP/Stanza NLP toolkits.
+| Lab | Institution | Key contributions |
+|-----|-------------|-------------------|
+| Sky Computing Lab, BAIR, berkeley-nest, rail-berkeley | UC Berkeley | vLLM, Starling-LM, Octo robotics, medical imaging |
+| CRFM, StanfordNLP, StanfordAIMI | Stanford | Alpaca, HELM, BioMedLM, CoreNLP/Stanza |
 
 These academic efforts are 100% US open contributions and power much of the ecosystem.
 
 ### Discover More on Hugging Face
 Search these orgs for additional American contributions:
 
-- **meta-llama** — Llama 4 Scout/Maverick, Llama 3.3, Llama 3.2 Vision, Llama Guard
-- **google** — Gemma 4, PaliGemma, CodeGemma, MedGemma, ShieldGemma
-- **allenai** — OLMo (fully open foundation models with training data)
-- **stanford-crfm** — BioMedLM, research models, datasets
-- **stanfordaimi** — Medical imaging models
-- **nvidia** — Nemotron, optimized models
-- **primeintellect** — INTELLECT-1/2/3/3.1, `prime-rl`, verifiers, Environments Hub
+| Org | Notable models & tools |
+|-----|------------------------|
+| [meta-llama](https://huggingface.co/meta-llama) | Llama 4 Scout/Maverick, Llama 3.3, Llama 3.2 Vision, Llama Guard |
+| [google](https://huggingface.co/google) | Gemma 4, PaliGemma, CodeGemma, MedGemma, ShieldGemma |
+| [allenai](https://huggingface.co/allenai) | OLMo (fully open foundation models + training data) |
+| [stanford-crfm](https://huggingface.co/stanford-crfm) | BioMedLM, research models, datasets |
+| [stanfordaimi](https://huggingface.co/stanfordaimi) | Medical imaging models |
+| [nvidia](https://huggingface.co/nvidia) | Nemotron, optimized models |
+| [primeintellect](https://huggingface.co/PrimeIntellect) | INTELLECT-1/2/3/3.1, `prime-rl`, verifiers, Environments Hub |
+| [arcee-ai](https://huggingface.co/arcee-ai) | Trinity Large/Mini/Nano, AFM-4.5B |
 
-Use tags like "llama", "gemma", "phi", "nemotron", "intellect" + filter for open licenses to stay US-focused.
+Use tags like `llama`, `gemma`, `phi`, `nemotron`, `intellect` + filter for open licenses to stay US-focused.
 
 ### Flagged
-<span style="color:red">❌</span> = China base model. US company + foreign foundation; open weights still earn a bonus, but scores stay in the hybrid band.
+Models built on a **China-base foundation** by a US company. Open weights earn a small bonus, but scores stay in the hybrid band.
 
-| Model | Company | Released | Open Source | USAbench | Access | Notes |
-|-------|---------|----------|-------------|----------|--------|-------|
-| <span style="color:red">❌</span> INTELLECT-3.1 | Prime Intellect | Feb 2026 | ✅ Yes | **63** ⭐ | HF | INTELLECT-3 continuation • continued RL • GLM-4.5-Air base |
-| <span style="color:red">❌</span> INTELLECT-3 | Prime Intellect | Nov 2025 | ✅ Yes | **58** | HF | 106B MoE (12B active) • US RL stack • GLM-4.5-Air base |
-| <span style="color:red">❌</span> INTELLECT-2 | Prime Intellect | Mar 2025 | ✅ Yes | **52** | HF | 32B • globally distributed RL • QwQ-32B base • ⚠️ aging (~16 mo) |
-| <span style="color:red">❌</span> Composer 2.5 | Cursor | — | ❌ No | **42** | Cursor | US company • closed |
+| Rank | Model | Company | China Base | Released | Open Source | USAbench | Access | Why flagged |
+|------|-------|---------|------------|----------|-------------|----------|--------|-------------|
+| 1 | INTELLECT-3.1 | Prime Intellect | ❌ GLM-4.5-Air (Zhipu) | Feb 2026 | ✅ Yes | **63** ⭐ | HF | Post-trained on Chinese foundation; US RL only |
+| 2 | INTELLECT-3 | Prime Intellect | ❌ GLM-4.5-Air (Zhipu) | Nov 2025 | ✅ Yes | **58** | HF | 106B MoE (12B active) on GLM base |
+| 3 | INTELLECT-2 | Prime Intellect | ❌ QwQ-32B (Qwen) | Mar 2025 | ✅ Yes | **52** | HF | Distributed US RL on Qwen base • ⚠️ aging (~16 mo) |
+| 4 | Composer 2.5 | Cursor | ❌ Kimi K2.5 (Moonshot) | — | ❌ No | **42** | Cursor | US company; closed API on Kimi checkpoint |
 
 ### Contributing
 - Add new pure-US entries with **Released** date, USAbench score + runtime command if available  

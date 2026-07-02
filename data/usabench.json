@@ -132,24 +132,26 @@
   ],
   "flagged": [
     {
-      "model": "INTELLECT-3",
-      "company": "Prime Intellect",
-      "released": "2025-11-01",
-      "baseScore": 63,
-      "openSource": true,
-      "chinaBase": true,
-      "access": "HF",
-      "notes": "106B MoE (12B active) • US RL stack • GLM-4.5-Air base"
-    },
-    {
       "model": "INTELLECT-3.1",
       "company": "Prime Intellect",
       "released": "2026-02-01",
       "baseScore": 65,
       "openSource": true,
       "chinaBase": true,
+      "chinaBaseLabel": "GLM-4.5-Air (Zhipu)",
       "access": "HF",
-      "notes": "INTELLECT-3 continuation • continued RL • GLM-4.5-Air base"
+      "whyFlagged": "Post-trained on Chinese foundation; US RL only"
+    },
+    {
+      "model": "INTELLECT-3",
+      "company": "Prime Intellect",
+      "released": "2025-11-01",
+      "baseScore": 63,
+      "openSource": true,
+      "chinaBase": true,
+      "chinaBaseLabel": "GLM-4.5-Air (Zhipu)",
+      "access": "HF",
+      "whyFlagged": "106B MoE (12B active) on GLM base"
     },
     {
       "model": "INTELLECT-2",
@@ -158,8 +160,9 @@
       "baseScore": 62,
       "openSource": true,
       "chinaBase": true,
+      "chinaBaseLabel": "QwQ-32B (Qwen)",
       "access": "HF",
-      "notes": "32B • globally distributed RL • QwQ-32B base • ⚠️ aging"
+      "whyFlagged": "Distributed US RL on Qwen base • ⚠️ aging"
     },
     {
       "model": "Composer 2.5",
@@ -168,8 +171,9 @@
       "baseScore": 42,
       "openSource": false,
       "chinaBase": true,
+      "chinaBaseLabel": "Kimi K2.5 (Moonshot)",
       "access": "Cursor",
-      "notes": "US company • closed"
+      "whyFlagged": "US company; closed API on Kimi checkpoint"
     }
   ]
 }

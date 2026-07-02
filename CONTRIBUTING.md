@@ -13,7 +13,7 @@ Thank you for your interest in contributing to **Awesome USA** — the curated l
    - Set **openSource** (`true` / `false`) in `data/usabench.json`
    - Include **USAbench** score (0-100)
    - Add **runtime command** if applicable (especially for open-weights)
-   - Note any China fine-tunes in the Flagged section
+   - Note any China fine-tunes in the Flagged section — set `chinaBaseLabel` and `whyFlagged` in `data/usabench.json`
 5. **Submit a Pull Request**
 
 ## What We're Looking For
@@ -39,7 +39,7 @@ USAbench weights **open-weights sovereignty + recency** over raw capability. Sco
 3. **+5** full recipe open (training code, data, or evals released)
 4. **Cap at 88** if closed API-only — no exceptions for capability
 5. Apply **recency decay** from pulse date: 0–3 mo (0) • 4–6 mo (−2) • 7–12 mo (−5) • 13–18 mo (−10) • 19+ mo (−15)
-6. China base → Flagged section (`chinaBase: true`), typically 40–69 band; mark with <span style="color:red">❌</span> in README
+6. China base → Flagged section (`chinaBase: true`, `chinaBaseLabel`, `whyFlagged`), typically 40–69 band
 
 ## Refreshing scores (pulse date)
 
