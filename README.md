@@ -1,28 +1,28 @@
 <img width="1456" height="1139" alt="comeandtake" src="banner.png" />
-image credit @levelsio https://x.com/levelsio/status/2070979198928277842
 
-# Awesome USA 🇺🇸
-Free + open source models, made in the land of the free 
+##### image credit @levelsio https://x.com/levelsio/status/2070979198928277842
 
-> **US AI Pulse · July 2026**  
-> **0 days** since the last major US release — USAbench recency anchor
+# Awesome USA 🇺🇸 
+
+### Free + open source models, made in the land of the free 
 
 ### Models
 
 | Rank | Model / Family                  | Company     | Released   | Open Source | USAbench   | Access                  | Notes |
 |------|-------------------------------|-------------|------------|-------------|------------|-------------------------|-------|
-| 1    | Nemotron Super / Ultra / 3    | NVIDIA     | Jun 2026   | ✅ Yes      | **98** ⭐⭐⭐ | NGC + HF               | Enterprise, agentic |
-| 2    | Gemma 4                       | Google     | May 2026   | ✅ Yes      | **98** ⭐⭐⭐ | HF                     | Efficient local + multimodal |
-| 3    | Arcee Trinity Large           | Arcee AI   | Mar 2026   | ✅ Yes      | **95** ⭐⭐⭐ | HF                     | Agentic open |
-| 4    | Claude Opus 4.6 / Fable 5     | Anthropic  | Jun 2026   | ❌ No       | **88** ⭐⭐ | claude.ai / API        | Reasoning, safety, agents |
-| 5    | GPT-5.6 (Sol/Terra/Luna)      | OpenAI     | May 2026   | ❌ No       | **87** ⭐⭐ | API (vetted)           | All-round + elite |
-| 6    | Grok 4.3 / 4.20 / 5           | xAI        | Apr 2026   | ❌ No       | **86** ⭐⭐ | x.ai / X / API         | Coding, real-time |
-| 7    | Gemini 3 + Nano Banana / Veo  | Google     | Jun 2026   | ❌ No       | **85** ⭐⭐ | gemini.google.com      | Multimodal, video • use Gemma 4 for open |
-| 8    | Llama 4 Maverick / Scout      | Meta       | Apr 2025   | ✅ Yes      | **85** ⭐⭐ | Hugging Face           | Open weights pioneer • ⚠️ aging (~15 mo) |
-| 9    | **Muse Spark (Muse family)**  | **Meta**   | Mar 2026   | ❌ No       | **82** ⭐⭐ | meta.ai / apps / API   | Multimodal reasoning, agents • Meta's current frontier |
-| 10   | Phi-4 + Reflection            | Microsoft / Reflection | Dec 2024 | ✅ Yes      | **81** ⭐⭐ | HF                     | Small & efficient open • ⚠️ aging (~19 mo) |
-| 11   | MAI Code / Image / Thinking   | Microsoft  | Sep 2025   | ❌ No       | **78** ⭐ | Azure                  | In-house coding + multimodal • use Phi-4 / Nemotron for open |
-| 12   | INTELLECT-1                   | Prime Intellect | Nov 2024 | ✅ Yes      | **74** ⭐ | HF                     | First fully decentralized 10B • ⚠️ aging (~20 mo) • Arcee post-train |
+| 1    | Nemotron Super / Ultra / 3    | NVIDIA      | Jun 2026   | ✅ Yes      | **98** ⭐⭐⭐ | NGC + HF               | Enterprise, agentic |
+| 2    | Gemma 4                       | Google      | May 2026   | ✅ Yes      | **98** ⭐⭐⭐ | HF                     | Efficient local + multimodal |
+| 3    | Liquid LFM2.5 / LFM2          | Liquid AI   | Jun 2026   | ✅ Yes      | **96** ⭐⭐⭐ | HF + LEAP + Ollama     | MIT spinoff • edge/on-device • 230M–24B MoE • VL + Audio • LFM Open License ($10M commercial cap) |
+| 4    | Arcee Trinity Large           | Arcee AI    | Mar 2026   | ✅ Yes      | **95** ⭐⭐⭐ | HF                     | Agentic open |
+| 5    | Claude Opus 4.6 / Fable 5     | Anthropic   | Jun 2026   | ❌ No       | **88** ⭐⭐ | claude.ai / API        | Reasoning, safety, agents |
+| 6    | GPT-5.6 (Sol/Terra/Luna)      | OpenAI      | May 2026   | ❌ No       | **87** ⭐⭐ | API (vetted)           | All-round + elite |
+| 7    | Grok 4.3 / 4.20 / 5           | xAI         | Apr 2026   | ❌ No       | **86** ⭐⭐ | x.ai / X / API         | Coding, real-time |
+| 8    | Gemini 3 + Nano Banana / Veo  | Google      | Jun 2026   | ❌ No       | **85** ⭐⭐ | gemini.google.com      | Multimodal, video • use Gemma 4 for open |
+| 9    | Llama 4 Maverick / Scout      | Meta        | Apr 2025   | ✅ Yes      | **85** ⭐⭐ | Hugging Face           | Open weights pioneer • ⚠️ aging (~15 mo) |
+| 10   | **Muse Spark (Muse family)**  | **Meta**    | Mar 2026   | ❌ No       | **82** ⭐⭐ | meta.ai / apps / API   | Multimodal reasoning, agents • Meta's current frontier |
+| 11   | Phi-4 + Reflection            | Microsoft / Reflection | Dec 2024 | ✅ Yes      | **81** ⭐⭐ | HF                     | Small & efficient open • ⚠️ aging (~19 mo) |
+| 12   | MAI Code / Image / Thinking   | Microsoft   | Sep 2025   | ❌ No       | **78** ⭐ | Azure                  | In-house coding + multimodal • use Phi-4 / Nemotron for open |
+| 13   | INTELLECT-1                   | Prime Intellect | Nov 2024 | ✅ Yes      | **74** ⭐ | HF                     | First fully decentralized 10B • ⚠️ aging (~20 mo) • Arcee post-train |
 
 ### Flagged
 Models with a **China-base foundation** (full or partial). US companies and international labs with major open US-facing releases. Open weights earn a small bonus; scores stay in the hybrid band.
@@ -44,6 +44,11 @@ Models with a **China-base foundation** (full or partial). US companies and inte
 - [US University Labs & Research Contributions](#us-university-labs--research-contributions)
 - [Discover More on Hugging Face](#discover-more-on-hugging-face)
 - [Contributing](#contributing)
+
+> **US AI Pulse · July 2026**  
+> **0 days** since the last major US release — USAbench recency anchor
+
+
 
 ### Criteria
 - US-headquartered company + primary development in the USA  
@@ -147,9 +152,10 @@ Search these orgs for additional American contributions:
 | [nvidia](https://huggingface.co/nvidia) | Nemotron, optimized models |
 | [primeintellect](https://huggingface.co/PrimeIntellect) | INTELLECT-1/2/3/3.1, `prime-rl`, verifiers, Environments Hub |
 | [arcee-ai](https://huggingface.co/arcee-ai) | Trinity Large/Mini/Nano, AFM-4.5B |
+| [LiquidAI](https://huggingface.co/LiquidAI) | LFM2.5 (230M–8B MoE), LFM2-24B, VL + Audio, ColBERT retrievers |
 | [deepreinforce-ai](https://huggingface.co/deepreinforce-ai) | Ornith-1.0 (9B/35B/397B) — [flagged](#flagged) |
 
-Use tags like `llama`, `gemma`, `phi`, `nemotron`, `intellect`, `ornith` + filter for open licenses to stay US-focused.
+Use tags like `llama`, `gemma`, `phi`, `nemotron`, `lfm`, `intellect`, `ornith` + filter for open licenses to stay US-focused.
 
 ### Contributing
 - Add new pure-US entries with **Released** date and USAbench score in `data/usabench.json`

@@ -41,6 +41,16 @@
       "notes": "Agentic open"
     },
     {
+      "model": "Liquid LFM2.5 / LFM2",
+      "company": "Liquid AI",
+      "released": "2026-06-01",
+      "baseScore": 96,
+      "openSource": true,
+      "closed": false,
+      "access": "HF + LEAP + Ollama",
+      "notes": "MIT spinoff • edge/on-device • 230M–24B MoE • VL + Audio • LFM Open License ($10M commercial cap)"
+    },
+    {
       "model": "Claude Opus 4.6 / Fable 5",
       "company": "Anthropic",
       "released": "2026-06-01",
