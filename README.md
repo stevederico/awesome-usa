@@ -6,8 +6,6 @@
 
 ## 🦅 Free & Open-Source AI — Made in the Land of the Free
 
-> **US AI Pulse · July 2026** — **0 days** since the last major US release
-
 ### Models
 | Rank | Model / Family | Company | Open Source | USAbench | Notes | Access |
 |------|----------------|---------|-------------|----------|-------|--------|
@@ -50,6 +48,8 @@
 | 37   | INTELLECT-3 | Prime Intellect | No | **0** ❌ | Released Nov 2025 • ❌ China base: GLM-4.5-Air (Zhipu) • 106B MoE (12B active) on GLM base | HF |
 | 38   | INTELLECT-2 | Prime Intellect | No | **0** ❌ | Released Mar 2025 • ❌ China base: QwQ-32B (Qwen) • Distributed US RL on Qwen base • ⚠️ aging (~16 mo) | HF |
 | 39   | Composer 2.5 | Cursor | No | **0** ❌ | ❌ China base: Kimi K2.5 (Moonshot) • US company; closed API on Kimi checkpoint | Cursor |
+
+> **US AI Pulse · July 2026** — **0 days** since the last major US release
 
 ### Criteria
 - US-headquartered company + primary development in the USA
