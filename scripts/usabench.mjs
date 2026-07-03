@@ -143,9 +143,31 @@ function linkifyAccess(access) {
     .join("");
 }
 
+// Company → Hugging Face org (open-weights orgs only; closed-shop companies stay plain)
+const COMPANY_LINKS = {
+  "NVIDIA": "nvidia",
+  "Google": "google",
+  "Liquid AI": "LiquidAI",
+  "Arcee AI": "arcee-ai",
+  "Ai2 (allenai)": "allenai",
+  "OpenAI": "openai",
+  "xAI": "xai-org",
+  "Meta": "meta-llama",
+  "Microsoft / Reflection": "microsoft",
+  "Microsoft": "microsoft",
+  "Prime Intellect": "PrimeIntellect",
+  "DeepReinforce": "deepreinforce-ai",
+};
+
+function linkifyCompany(company) {
+  const bare = company.replace(/\*\*/g, "").trim();
+  const slug = COMPANY_LINKS[bare];
+  return slug ? `[${company}](https://huggingface.co/${slug})` : company;
+}
+
 function modelRow(e) {
   const scoreCell = e.chinaBase ? "❌ **0**" : `**${e.score}** ${e.starLabel}`;
-  return `| ${String(e.rank).padEnd(4)} | ${e.model} | ${e.company} | ${e.openLabel} | ${scoreCell} | ${linkifyAccess(e.access)} | ${e.notes} |`;
+  return `| ${String(e.rank).padEnd(4)} | ${e.model} | ${linkifyCompany(e.company)} | ${e.openLabel} | ${scoreCell} | ${linkifyAccess(e.access)} | ${e.notes} |`;
 }
 
 const output = {
