@@ -1,7 +1,19 @@
-- Improve USAbench to v2 (steeper recency, fullOpen + permissive bonuses, closedCap=82 in single table)
-- Update scoring docs in CONTRIBUTING + README criteria
 - Add CONTRIBUTING.md
 - Automate pulse date
+
+0.2.0
+
+  Upgrade USAbench v2
+  Add Granite OLMo
+  Add Ollama models
+  Disqualify foreign zero
+  Move redX score
+  Link companies access
+  Merge tools sections
+  Swap notes access
+  Say foreign not-china
+  Tighten prose
+  Add inspired note
 
 0.1.0
 
