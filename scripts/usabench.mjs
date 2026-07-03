@@ -181,7 +181,8 @@ function modelRow(e) {
   // Disqualified models (USAbench < 10) get no promotional links — plain text
   const company = e.score < 10 ? e.company : linkifyCompany(e.company);
   const access = e.score < 10 ? (e.access ?? "—") : linkifyAccess(e.access);
-  return `| ${String(e.rank).padEnd(4)} | ${e.model} | ${company} | ${e.openLabel} | ${scoreCell} | ${access} | ${e.notes} |`;
+  const openLabel = e.score < 10 ? "❌ No" : e.openLabel;
+  return `| ${String(e.rank).padEnd(4)} | ${e.model} | ${company} | ${openLabel} | ${scoreCell} | ${access} | ${e.notes} |`;
 }
 
 const output = {
