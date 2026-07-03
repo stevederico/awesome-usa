@@ -178,7 +178,10 @@ function linkifyCompany(company) {
 
 function modelRow(e) {
   const scoreCell = e.chinaBase ? "❌ **0**" : `**${e.score}** ${e.starLabel}`;
-  return `| ${String(e.rank).padEnd(4)} | ${e.model} | ${linkifyCompany(e.company)} | ${e.openLabel} | ${scoreCell} | ${linkifyAccess(e.access)} | ${e.notes} |`;
+  // Disqualified models (USAbench < 10) get no promotional links — plain text
+  const company = e.score < 10 ? e.company : linkifyCompany(e.company);
+  const access = e.score < 10 ? (e.access ?? "—") : linkifyAccess(e.access);
+  return `| ${String(e.rank).padEnd(4)} | ${e.model} | ${company} | ${e.openLabel} | ${scoreCell} | ${access} | ${e.notes} |`;
 }
 
 const output = {
