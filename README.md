@@ -6,6 +6,8 @@
 
 ## 🦅 Free & Open-Source AI — Made in the Land of the Free
 
+*Inspired by the [Cars.com American-Made Index](https://www.cars.com/american-made-index/) — where Tesla tops the list. This is the AI-model equivalent: ranking who is most American-built.*
+
 ### Models
 | Rank | Model / Family | Company | Open Source | USAbench | Notes | Access |
 |------|----------------|---------|-------------|----------|-------|--------|
