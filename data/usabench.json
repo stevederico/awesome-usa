@@ -376,7 +376,7 @@
       "chinaBase": true,
       "chinaBaseLabel": "Qwen 3.5 + Gemma 4",
       "access": "HF",
-      "whyFlagged": "Santa Clara US lab • MIT open weights + full RL research • Self-scaffolding: jointly RL-learns task scaffolds/harnesses + solutions (no human harnesses) • Sizes: 9B (Qwen3.5 base), 31B (Gemma4), 35B/397B (Qwen3.5-MoE) • Strong agentic coding (397B: 82.4 SWE-Bench Verified, 77.5 TB 2.1); China foundation on large MoEs"
+      "whyFlagged": "Santa Clara US lab • MIT open weights + full RL research • Self-scaffolding: jointly RL-learns task scaffolds/harnesses + solutions (no human harnesses) • Sizes: 9B (Qwen3.5 base), 31B (Gemma4), 35B/397B (Qwen3.5-MoE) • Strong agentic coding (397B: 82.4 SWE-Bench Verified, 77.5 TB 2.1); foreign foundation on large MoEs"
     },
     {
       "model": "INTELLECT-3.1",
@@ -387,7 +387,7 @@
       "chinaBase": true,
       "chinaBaseLabel": "GLM-4.5-Air (Zhipu)",
       "access": "HF",
-      "whyFlagged": "Post-trained on Chinese foundation; US RL only"
+      "whyFlagged": "Post-trained on foreign foundation; US RL only"
     },
     {
       "model": "INTELLECT-3",

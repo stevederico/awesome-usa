@@ -5,7 +5,7 @@
  * No separate closed section — closed models just get stricter cap.
  *
  * baseScore (curator anchor) + fullOpenBonus + permissiveBonus − recency − china
- * Closed models capped (default 82). China-base → hard 0.
+ * Closed models capped (default 82). foreign-base → hard 0.
  *
  * Usage:
  *   node scripts/usabench.mjs           # print scores + markdown rows
@@ -60,7 +60,7 @@ function stars(score) {
 
 function entryNotes(entry, ageMonths, releasedLabel) {
   let text = entry.chinaBase
-    ? `❌ China base: ${entry.chinaBaseLabel} • ${entry.whyFlagged ?? ""}`
+    ? `❌ Foreign base: ${entry.chinaBaseLabel} • ${entry.whyFlagged ?? ""}`
     : (entry.notes ?? "");
   if (entry.released && text.includes("⚠️ aging") && ageMonths !== null) {
     text = text.replace(/⚠️ aging(?:\s*\(~\d+\s*mo\))?/, `⚠️ aging (~${ageMonths} mo)`);
@@ -94,7 +94,7 @@ function scoreEntry(entry, pulse, decayTable, chinaBasePenalty, fullOpenBonus, p
   score -= totalPenalty;
   if (entry.closed) score = Math.min(score, closedCap);
   score = Math.max(0, Math.min(100, score));
-  // China-base / foreign foundations are disqualified — hard 0, not a ranked score
+  // foreign-base / foreign foundations are disqualified — hard 0, not a ranked score
   if (entry.chinaBase) score = 0;
 
   const openLabel = entry.openSource ? "Yes" : "No";
@@ -231,7 +231,7 @@ console.log(`> ${daysLabel} since the last major US release — USAbench recency
 console.log("## Models (sorted by score)\n");
 for (const e of models) {
   const rel = e.releasedLabel ?? "no date";
-  const flag = e.chinaBase ? " [China base]" : "";
+  const flag = e.chinaBase ? " [Foreign base]" : "";
   const bonusPart = e.bonuses ? ` +${e.bonuses}b` : "";
   const penaltyDetail = e.chinaPenalty
     ? `−${e.recencyPenalty} recency, −${e.chinaPenalty} China`
