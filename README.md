@@ -2,11 +2,11 @@
 
 *Image credit: [@levelsio](https://x.com/levelsio/status/2070979198928277842)*
 
-<h1 align="center">🇺🇸 AWESOME USA 🇺🇸</h1>
+<h1 align="center">🇺🇸 AWESOME-USA 🇺🇸</h1>
 
 ## 🦅 Free & Open-Source AI — Made in the Land of the Free
 
-*Inspired by the [Cars.com American-Made Index](https://www.cars.com/american-made-index/) — where Tesla tops the list. This is the AI-model equivalent: ranking who is most American-built.*
+*Inspired by the [Cars.com American-Made Index](https://www.cars.com/american-made-index/) — where [Tesla](https://www.tesla.com) tops the list*
 
 ### Models
 | Rank | Model / Family | Company | Open Source | USAbench | Notes | Access |
@@ -64,8 +64,6 @@
 
 ### US Tools & Infrastructure (All US)
 Image/video generators are ranked in the [Models](#models) table. Everything else — IDEs, agents, frameworks, inference, and local runtimes:
-
-**Run locally**: Desktop → Ollama or LM Studio • Mac → MLX • Android/edge → LiteRT • Production → NIM, vLLM, or SGLang.
 
 | Tool | Company / HQ | Category | Notes |
 |------|--------------|----------|-------|
