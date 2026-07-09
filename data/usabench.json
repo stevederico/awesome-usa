@@ -105,14 +105,14 @@
       "notes": "Open weights pioneer • ⚠️ aging"
     },
     {
-      "model": "**Muse Spark (Muse family)**",
+      "model": "**Muse Spark 1.1 (Muse family)**",
       "company": "**Meta**",
-      "released": "2026-03-01",
-      "baseScore": 84,
+      "released": "2026-07-09",
+      "baseScore": 86,
       "openSource": false,
       "closed": true,
-      "access": "meta.ai / apps / API",
-      "notes": "Multimodal reasoning, agents • Meta's current frontier"
+      "access": "meta.ai / Meta Model API",
+      "notes": "Agentic + coding upgrade • multimodal • Meta Model API public preview (US)"
     },
     {
       "model": "Phi-4 + Reflection",

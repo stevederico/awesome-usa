@@ -26,10 +26,10 @@
 | 13   | GPT-5.6 (Sol/Terra/Luna) | [OpenAI](https://huggingface.co/openai) | No | **82** ⭐⭐ | Released May 2026 • All-round + elite | API (vetted) |
 | 14   | Grok 4.5 / 4.3 / 4.20 / 5 | [xAI](https://huggingface.co/xai-org) | No | **82** ⭐⭐ | Released Jul 2026 • Coding, agentic, real-time | [x.ai](https://x.ai) / [X](https://x.com) / API |
 | 15   | Gemini 3 + Nano Banana / Veo | [Google](https://huggingface.co/google) | No | **82** ⭐⭐ | Released Jun 2026 • Multimodal, video • use Gemma 4 for open | [gemini.google.com](https://gemini.google.com) |
-| 16   | Grok Imagine | [xAI](https://huggingface.co/xai-org) | No | **82** ⭐⭐ | Released Jun 2026 • Image + video • real-time generation | [x.ai](https://x.ai) / [X](https://x.com) |
-| 17   | Sora 2 / DALL·E | [OpenAI](https://huggingface.co/openai) | No | **82** ⭐⭐ | Released Jun 2026 • Video + image • closed API | API |
-| 18   | Midjourney | Midjourney | No | **82** ⭐⭐ | Released May 2026 • Image • closed | [midjourney.com](https://midjourney.com) |
-| 19   | **Muse Spark (Muse family)** | [**Meta**](https://huggingface.co/meta-llama) | No | **81** ⭐⭐ | Released Mar 2026 • Multimodal reasoning, agents • Meta's current frontier | [meta.ai](https://meta.ai) / apps / API |
+| 16   | **Muse Spark 1.1 (Muse family)** | [**Meta**](https://huggingface.co/meta-llama) | No | **82** ⭐⭐ | Released Jul 2026 • Agentic + coding upgrade • multimodal • Meta Model API public preview (US) | [meta.ai](https://meta.ai) / Meta Model API |
+| 17   | Grok Imagine | [xAI](https://huggingface.co/xai-org) | No | **82** ⭐⭐ | Released Jun 2026 • Image + video • real-time generation | [x.ai](https://x.ai) / [X](https://x.com) |
+| 18   | Sora 2 / DALL·E | [OpenAI](https://huggingface.co/openai) | No | **82** ⭐⭐ | Released Jun 2026 • Video + image • closed API | API |
+| 19   | Midjourney | Midjourney | No | **82** ⭐⭐ | Released May 2026 • Image • closed | [midjourney.com](https://midjourney.com) |
 | 20   | Deep Cogito v2.1 | [Deep Cogito](https://huggingface.co/deepcogito) | Yes | **81** ⭐⭐ | Released Aug 2025 • SF startup • Open hybrid reasoning (IDA self-improvement) • Llama-based variants qualify | [HF](https://huggingface.co) + [Ollama](https://ollama.com) |
 | 21   | Rnj-1 (Ramanujan) | [Essential AI](https://huggingface.co/essentialai) | Yes | **81** ⭐⭐ | Released Dec 2025 • 8B open-weights base + instruct (Apache 2.0) • Trained from scratch • Code / STEM / tool-calling • Released Essential-Web v1.0 corpus • Founded by 'Attention Is All You Need' co-authors • SF | [HF](https://huggingface.co) |
 | 22   | Llama 4 Maverick / Scout | [Meta](https://huggingface.co/meta-llama) | Yes | **80** ⭐⭐ | Released Apr 2025 • Open weights pioneer • ⚠️ aging (~15 mo) | [Hugging Face](https://huggingface.co) |
