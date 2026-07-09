@@ -24,7 +24,7 @@
 | 11   | Evo 2 | [Arc Institute](https://huggingface.co/arcinstitute) | Yes | **83** ⭐⭐ | Released Feb 2025 • Open DNA / genomics foundation model up to 40B (Apache 2.0) • Fully open — weights + code + OpenGenome2 (~9T bp) • Predicts & designs genetic code • Palo Alto nonprofit | [HF](https://huggingface.co) |
 | 12   | Claude Opus 4.6 / Fable 5 | Anthropic | No | **82** ⭐⭐ | Released Jun 2026 • Reasoning, safety, agents | [claude.ai](https://claude.ai) / API |
 | 13   | GPT-5.6 (Sol/Terra/Luna) | [OpenAI](https://huggingface.co/openai) | No | **82** ⭐⭐ | Released May 2026 • All-round + elite | API (vetted) |
-| 14   | Grok 4.3 / 4.20 / 5 | [xAI](https://huggingface.co/xai-org) | No | **82** ⭐⭐ | Released Apr 2026 • Coding, real-time | [x.ai](https://x.ai) / [X](https://x.com) / API |
+| 14   | Grok 4.5 / 4.3 / 4.20 / 5 | [xAI](https://huggingface.co/xai-org) | No | **82** ⭐⭐ | Released Jul 2026 • Coding, agentic, real-time | [x.ai](https://x.ai) / [X](https://x.com) / API |
 | 15   | Gemini 3 + Nano Banana / Veo | [Google](https://huggingface.co/google) | No | **82** ⭐⭐ | Released Jun 2026 • Multimodal, video • use Gemma 4 for open | [gemini.google.com](https://gemini.google.com) |
 | 16   | Grok Imagine | [xAI](https://huggingface.co/xai-org) | No | **82** ⭐⭐ | Released Jun 2026 • Image + video • real-time generation | [x.ai](https://x.ai) / [X](https://x.com) |
 | 17   | Sora 2 / DALL·E | [OpenAI](https://huggingface.co/openai) | No | **82** ⭐⭐ | Released Jun 2026 • Video + image • closed API | API |
