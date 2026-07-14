@@ -4,6 +4,14 @@
 - Add ten US open-weight models (Nomic Embed v2, Evo 2, Essential Rnj-1, Foundation-Sec-8B, Orpheus TTS, Ultravox, YOLO11, DBRX, StripedHyena/RedPajama, Bark)
 - Link ten more companies to Hugging Face orgs
 
+0.8.3
+
+  Add AGENTS discovery guide
+
+0.8.2
+
+  Center free open tagline
+
 0.8.1
 
   Update land free tagline
