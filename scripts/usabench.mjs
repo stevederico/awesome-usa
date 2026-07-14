@@ -204,6 +204,20 @@ const COMPANY_LINKS = {
   "Circlestone Labs": "circlestone-labs",
   "National Design Studio": "nationaldesignstudio",
   "NemoStation": "NemoStation",
+  "Sesame": "sesame",
+  "Voyage AI": "voyageai",
+  "Datalab": "datalab-to",
+  "Tesslate": "Tesslate",
+  "Prior Labs": "Prior-Labs",
+  "Zyphra": "Zyphra",
+  "Netflix": "netflix",
+  "Qualcomm AI Research": "Qualcomm-AI-Research",
+  "Nous Research": "NousResearch",
+  "BlinkDL": "BlinkDL",
+  "Fastino": "fastino",
+  "Eximius Labs": "EximiusLabs",
+  "OpenMed": "OpenMed",
+  "Ultralytics": "ultralytics",
 };
 
 function linkifyCompany(company) {

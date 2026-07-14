@@ -731,14 +731,14 @@
       "notes": "Open 300M text embedding model (Gemma line) • on-device / retrieval"
     },
     {
-      "model": "medgemma-1.5-4b-it",
+      "model": "MedGemma (1.5-4B / 4B / 27B)",
       "company": "Google",
       "released": "2026-04-13",
-      "baseScore": 87,
+      "baseScore": 88,
       "openSource": true,
       "closed": false,
       "access": "HF",
-      "notes": "Open medical multimodal Gemma (4B instruct) • clinical imaging + text"
+      "notes": "Open medical multimodal Gemma family (1.5-4B, 4B-it, 27B-it) • clinical imaging + text"
     },
     {
       "model": "Gemma 3 4B / PaliGemma 3B",
@@ -902,6 +902,417 @@
       "closed": false,
       "access": "HF",
       "notes": "Open 2B video-text model • NVIDIA ecosystem adjacent"
+    },
+    {
+      "model": "Nemotron-3-Nano-Omni-30B-A3B",
+      "company": "NVIDIA",
+      "released": "2026-05-08",
+      "baseScore": 94,
+      "openSource": true,
+      "closed": false,
+      "access": "HF + NGC",
+      "notes": "Open omni/reasoning Nano MoE (30B-A3B) • BF16/NVFP4 • agentic multimodal"
+    },
+    {
+      "model": "Nemotron-Labs TwoTower 30B-A3B",
+      "company": "NVIDIA",
+      "released": "2026-06-01",
+      "baseScore": 91,
+      "openSource": true,
+      "closed": false,
+      "access": "HF + NGC",
+      "notes": "Open Nemotron Labs two-tower base (30B-A3B class)"
+    },
+    {
+      "model": "personaplex-7b-v1",
+      "company": "NVIDIA",
+      "released": "2026-03-02",
+      "baseScore": 86,
+      "openSource": true,
+      "closed": false,
+      "access": "HF + NGC",
+      "notes": "Open audio↔audio persona / speech model (~7–8B)"
+    },
+    {
+      "model": "NL-Diffusion-Image",
+      "company": "NVIDIA",
+      "released": "2026-07-01",
+      "baseScore": 85,
+      "openSource": true,
+      "closed": false,
+      "access": "HF + NGC",
+      "notes": "Open NVIDIA diffusion image generation model"
+    },
+    {
+      "model": "Cosmos3 Super T2I / I2V",
+      "company": "NVIDIA",
+      "released": "2026-07-01",
+      "baseScore": 89,
+      "openSource": true,
+      "closed": false,
+      "access": "HF + NGC",
+      "notes": "Open Cosmos3 Super text-to-image + image-to-video generation heads"
+    },
+    {
+      "model": "Cosmos-Reason2-2B",
+      "company": "NVIDIA",
+      "released": "2025-12-01",
+      "baseScore": 84,
+      "openSource": true,
+      "closed": false,
+      "access": "HF + NGC",
+      "notes": "Open 2B world-reasoning VLM (Cosmos Reason line)"
+    },
+    {
+      "model": "Nemotron-OCR / Parse v1.2",
+      "company": "NVIDIA",
+      "released": "2026-05-22",
+      "baseScore": 86,
+      "openSource": true,
+      "closed": false,
+      "access": "HF + NGC",
+      "notes": "Open document OCR + parse (nemotron-ocr-v2, Nemotron-Parse-v1.2)"
+    },
+    {
+      "model": "PiD",
+      "company": "NVIDIA",
+      "released": "2026-05-20",
+      "baseScore": 82,
+      "openSource": true,
+      "closed": false,
+      "access": "HF + NGC",
+      "notes": "Open image-to-image edit model (PiD)"
+    },
+    {
+      "model": "Privasis-Cleaner-0.6B",
+      "company": "NVIDIA",
+      "released": "2026-06-15",
+      "baseScore": 78,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open 0.6B privacy text cleaner / PII utility"
+    },
+    {
+      "model": "NitroGen",
+      "company": "NVIDIA",
+      "released": "2026-02-05",
+      "baseScore": 80,
+      "openSource": true,
+      "closed": false,
+      "access": "HF + NGC",
+      "notes": "Open RL / game-agent foundation (NitroGen)"
+    },
+    {
+      "model": "ARDY robotics policies",
+      "company": "NVIDIA",
+      "released": "2026-07-01",
+      "baseScore": 82,
+      "openSource": true,
+      "closed": false,
+      "access": "HF + NGC",
+      "notes": "Open ARDY G1/Core robot policy stacks (Horizon variants)"
+    },
+    {
+      "model": "TimesFM 2.5 (200M)",
+      "company": "Google",
+      "released": "2026-04-10",
+      "baseScore": 88,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open time-series foundation model (timesfm-2.5-200m) • transformers + pytorch"
+    },
+    {
+      "model": "SigLIP2",
+      "company": "Google",
+      "released": "2025-02-21",
+      "baseScore": 86,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open vision-language encoder (siglip2-base) • zero-shot classification / retrieval"
+    },
+    {
+      "model": "BitNet b1.58 2B-4T",
+      "company": "Microsoft",
+      "released": "2025-12-17",
+      "baseScore": 88,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open 1.58-bit ternary LLM (2B-class) • extreme efficiency research"
+    },
+    {
+      "model": "VibeVoice 1.5B / ASR",
+      "company": "Microsoft",
+      "released": "2026-01-22",
+      "baseScore": 86,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open TTS + ASR voice stack (VibeVoice-1.5B, VibeVoice-ASR)"
+    },
+    {
+      "model": "Harrier OSS v1 27B",
+      "company": "Microsoft",
+      "released": "2026-03-30",
+      "baseScore": 84,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open 27B feature-extraction / embedding-scale model"
+    },
+    {
+      "model": "Llama Guard 4 12B",
+      "company": "Meta",
+      "released": "2025-04-29",
+      "baseScore": 86,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open safety / moderation multimodal guard (12B)"
+    },
+    {
+      "model": "SAM 3D Objects",
+      "company": "Meta",
+      "released": "2026-06-12",
+      "baseScore": 88,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open Segment Anything 3D objects reconstruction"
+    },
+    {
+      "model": "NLLB-200 distilled 600M",
+      "company": "Meta",
+      "released": "2022-07-01",
+      "baseScore": 78,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open massively multilingual MT classic • ⚠️ aging"
+    },
+    {
+      "model": "CLIP ViT-B/32",
+      "company": "OpenAI",
+      "released": "2021-01-01",
+      "baseScore": 80,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open vision-language encoder evergreen • ⚠️ aging"
+    },
+    {
+      "model": "Granite Docling 258M + TTM r3",
+      "company": "IBM",
+      "released": "2025-09-23",
+      "baseScore": 86,
+      "openSource": true,
+      "closed": false,
+      "permissive": true,
+      "access": "HF",
+      "notes": "Open doc understanding (docling-258M) + granite timeseries TTM-r3 • Apache 2.0"
+    },
+    {
+      "model": "LFM2.5-Embedding-350M",
+      "company": "Liquid AI",
+      "released": "2026-06-18",
+      "baseScore": 88,
+      "openSource": true,
+      "closed": false,
+      "access": "HF + LEAP",
+      "notes": "Open on-device embedding / ColBERT-class LFM2.5 retrievers"
+    },
+    {
+      "model": "YOLO26",
+      "company": "Ultralytics",
+      "released": "2026-02-12",
+      "baseScore": 86,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open real-time detection family successor to YOLO11 • detect/segment/pose"
+    },
+    {
+      "model": "CSM-1B (Sesame)",
+      "company": "Sesame",
+      "released": "2025-12-01",
+      "baseScore": 84,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open conversational speech model (CSM-1B) • Sesame"
+    },
+    {
+      "model": "voyage-4-nano",
+      "company": "Voyage AI",
+      "released": "2026-03-02",
+      "baseScore": 86,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open nano embedding model (voyage-4-nano) • retrieval"
+    },
+    {
+      "model": "Chandra OCR 2 / Lift",
+      "company": "Datalab",
+      "released": "2026-05-07",
+      "baseScore": 84,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open OCR + layout (chandra-ocr-2, lift) • document AI"
+    },
+    {
+      "model": "OmniCoder-9B",
+      "company": "Tesslate",
+      "released": "2026-03-13",
+      "baseScore": 84,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open 9B coding model (OmniCoder)"
+    },
+    {
+      "model": "TabPFN 3",
+      "company": "Prior Labs",
+      "released": "2026-07-01",
+      "baseScore": 86,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open tabular foundation (tabpfn_3) • classification"
+    },
+    {
+      "model": "ZAYA1-8B",
+      "company": "Zyphra",
+      "released": "2026-05-29",
+      "baseScore": 85,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open ~8–9B LLM (ZAYA1) • Zyphra"
+    },
+    {
+      "model": "void-model",
+      "company": "Netflix",
+      "released": "2026-04-06",
+      "baseScore": 80,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open video-to-video research model (Netflix)"
+    },
+    {
+      "model": "MobileWAN",
+      "company": "Qualcomm AI Research",
+      "released": "2026-07-01",
+      "baseScore": 80,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open mobile text-to-video research (mobilewan)"
+    },
+    {
+      "model": "SmolLM2 / SmolVLM",
+      "company": "Hugging Face",
+      "released": "2025-02-01",
+      "baseScore": 84,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open small LLM + VLM line (SmolLM2-1.7B, SmolVLM-256M) • NYC HF • ⚠️ aging vs SmolLM3"
+    },
+    {
+      "model": "Hermes 4.3 36B",
+      "company": "Nous Research",
+      "released": "2025-12-06",
+      "baseScore": 86,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open Hermes 4.3 36B instruct • community flagship beyond Hermes 3"
+    },
+    {
+      "model": "RWKV7-G1",
+      "company": "BlinkDL",
+      "released": "2026-07-01",
+      "baseScore": 84,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open RWKV-7 linear-attention RNN LLM (rwkv7-g1)"
+    },
+    {
+      "model": "Higgs Audio v3 STT",
+      "company": "Boson AI",
+      "released": "2026-06-12",
+      "baseScore": 86,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open speech-to-text companion to Higgs TTS 3"
+    },
+    {
+      "model": "Chatterbox Nano / Dramabox",
+      "company": "Resemble AI",
+      "released": "2026-05-13",
+      "baseScore": 82,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open TTS variants (nano + Dramabox) beyond Chatterbox"
+    },
+    {
+      "model": "GLiNER2 privacy filter",
+      "company": "Fastino",
+      "released": "2026-06-22",
+      "baseScore": 80,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open PII / privacy token classification (gliner2-privacy-filter)"
+    },
+    {
+      "model": "Fusion Embedding previews",
+      "company": "Eximius Labs",
+      "released": "2026-07-01",
+      "baseScore": 78,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open fusion-embedding preview family • retrieval experiments"
+    },
+    {
+      "model": "OpenMed privacy-filter multilingual v2",
+      "company": "OpenMed",
+      "released": "2026-07-01",
+      "baseScore": 80,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open multilingual privacy token classifier v2"
+    },
+    {
+      "model": "Phi-4-mini-instruct",
+      "company": "Microsoft",
+      "released": "2025-12-10",
+      "baseScore": 88,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open small Phi-4 mini instruct • efficient local"
+    },
+    {
+      "model": "CWIP-1.0",
+      "company": "NVIDIA",
+      "released": "2026-07-01",
+      "baseScore": 74,
+      "openSource": true,
+      "closed": false,
+      "access": "HF",
+      "notes": "Open small NVIDIA research card (CWIP-1.0) • provisional"
     }
   ],
   "flagged": [
@@ -981,6 +1392,17 @@
       "chinaBaseLabel": "Qwen3-32B (Alibaba)",
       "access": "HF",
       "whyFlagged": "US company speculative-decoding draft models • trained against Qwen3-32B targets • foreign foundation, not US from-scratch LLM"
+    },
+    {
+      "model": "canary-qwen-2.5b",
+      "company": "NVIDIA",
+      "released": "2025-04-21",
+      "baseScore": 70,
+      "openSource": true,
+      "chinaBase": true,
+      "chinaBaseLabel": "Qwen (Alibaba)",
+      "access": "HF + NGC",
+      "whyFlagged": "NVIDIA ASR hybrid card naming Qwen foundation • foreign base path disqualifies USAbench sovereignty score"
     }
   ]
 }
