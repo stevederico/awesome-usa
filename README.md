@@ -4,7 +4,7 @@
 
 <h1 align="center">🇺🇸 USA-Bench 🇺🇸</h1>
 
-## 🦅 US AI sovereignty leaderboard — open-weights, recency, transparency  🦅
+## 🦅 Free + Open Models from the Land of the Free 🦅
 
 *Ranked by [USAbench](#criteria) (0–100). Inspired by the [American-Made Cars Index](https://www.cars.com/american-made-index/) — where [Tesla](https://www.tesla.com) tops the list*
 
